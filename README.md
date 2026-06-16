@@ -3,7 +3,7 @@
 > 기존 펫캠 위에 씌우기만 하면, 집에 사람이 있을 때 카메라 렌즈를 자동으로 가려주는 지능형 물리 가림막입니다.
 > 카메라가 해킹당해도 가림막은 열리지 않습니다 — 소프트웨어가 아니라 **물리적 시스템 분리**로 사생활을 지키기 때문입니다.
 
-![막아조 포스터](docs/poster.png)
+![막아조 포스터](poster.png)
 
 ---
 
@@ -25,7 +25,7 @@
 | 부품 원가 | 약 17,750원 (프로토타입 1대 기준) |
 | 상태 | 작동하는 프로토타입 완성 |
 
-![막아조 실물](docs/photo.jpeg)
+![막아조 실물](photo.jpeg)
 
 ---
 
@@ -41,7 +41,7 @@
 
 ## 어떻게 다른가 — 시스템 분리
 
-![상태 흐름도](docs/state-diagram.png)
+![상태 흐름도](state-diagram.png)
 
 ```
 [기존 일체형 셔터 카메라]              [막아조]
@@ -130,12 +130,11 @@
 .
 ├── README.md
 ├── LICENSE
-├── src/
-│   └── makajo.ino          # 펌웨어 (Arduino/ESP8266)
-└── docs/
-    ├── poster.png          # 컨셉 포스터
-    ├── state-diagram.png   # 상태 흐름도
-    └── photo.jpeg          # 실물 사진
+├── poster.png              # 컨셉 포스터
+├── state-diagram.png       # 상태 흐름도
+├── photo.jpeg              # 실물 사진
+└── src/
+    └── makajo.ino          # 펌웨어 (Arduino/ESP8266)
 ```
 
 ---
