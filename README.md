@@ -28,6 +28,8 @@ Uploading IMG_0217.MOV…
 | 부품 원가 | 약 17,750원 (프로토타입 1대 기준) |
 | 상태 | 작동하는 프로토타입 완성 |
 
+<img width="574" height="687" alt="IMG_3545" src="https://github.com/user-attachments/assets/7b849569-71da-45d7-bb24-9bfdf181b982" />
+
 ![막아조 실물](photo.jpeg)
 
 ---
